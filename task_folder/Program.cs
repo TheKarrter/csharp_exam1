@@ -17,8 +17,10 @@ void PrintArray(string[] array)
 }
 Console.WriteLine("Введите массив строк с клавиатуры:");
 ReadArray(words);
+Console.WriteLine();
 Console.WriteLine("Текущий массив строк:");
 PrintArray(words);
+Console.WriteLine();
 Console.WriteLine("Строки, в которых символов меньше или равно 3");
 
 for(int i = 0; i<words.Length; i++)
